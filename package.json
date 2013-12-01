@@ -1,0 +1,20 @@
+{
+  "name": "blitz",
+  "version": "0.0.1",
+  "description": "fast backend",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snolot/blitz.git"
+  },
+  "author": "Sylvain Nolot",
+  "license": "BSD",
+  "readmeFilename": "Readme.md",
+  "gitHead": "0fda559556d6f03dd1a06aa790d43e71fed6c669"
+}
