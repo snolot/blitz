@@ -2,7 +2,7 @@
   "name": "blitz",
   "version": "0.0.1",
   "description": "fast backend",
-  "main": "index.js",
+  "main": "lib/main.js",
   "directories": {
     "test": "test"
   },
@@ -16,5 +16,9 @@
   "author": "Sylvain Nolot",
   "license": "BSD",
   "readmeFilename": "Readme.md",
-  "gitHead": "0fda559556d6f03dd1a06aa790d43e71fed6c669"
+  "gitHead": "0fda559556d6f03dd1a06aa790d43e71fed6c669",
+  "devDependencies": {
+    "mocha": "",
+   "should": ""
+ }
 }
