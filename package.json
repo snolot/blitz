@@ -19,6 +19,7 @@
   "gitHead": "0fda559556d6f03dd1a06aa790d43e71fed6c669",
   "devDependencies": {
     "mocha": "",
-   "should": ""
+   "should": "",
+   "sqlite3": ""
  }
 }
