@@ -1,11 +1,14 @@
-var should	= require('should');
-var blitz 	= require('../lib/main');
+var should		= require('should');
+var blitz 		= require('../lib/main');
 
-describe('createDatabase', function() {
-    describe('with no arguments', function() {
-        it('returns an empty array', function() {
-            var result = sleepsort();
-            result.should.eql([]);
+
+describe('createDatabaseNoPrevious', function() {
+    describe('with String arguments, callback and no db with the same name.', function() {
+        it('callback returns error object or null if ok', function() {
+            blitz.createDatabase('test', function(error){
+            	
+            	should.not.exist(error);
+            });
         });
     });
 });
