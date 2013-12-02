@@ -21,5 +21,9 @@
     "mocha": "",
    "should": "",
    "sqlite3": ""
+ },
+ "dependencies": {
+   "sqlite3": ""
  }
+
 }
